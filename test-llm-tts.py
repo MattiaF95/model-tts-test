@@ -10,7 +10,7 @@ api_key = os.getenv("MISTRAL_API_KEY")
 client = Mistral(api_key=api_key)
 
 # 1. Leggere testo da file.txt
-text = Path("prova.txt").read_text(encoding="utf-8")
+text = Path("Testo.txt").read_text(encoding="utf-8")
 
 # 2. File audio di riferimento
 audio_path = "audio_mp3_riferimento/LUCA_WARD.mp3"
