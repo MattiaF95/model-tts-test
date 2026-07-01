@@ -1,4 +1,6 @@
 .venv/
+venv/
+test-tts/
 .env
 __pycache__/
 *.pyc

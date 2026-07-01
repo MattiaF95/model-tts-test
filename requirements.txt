@@ -1,0 +1,4 @@
+gradio_client
+mistralai
+python-dotenv
+requests
